@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <body>
-<style>
+<style>  
   h1 {
 text-align: center;
 font-family: "Roboto", "sans-serif";
@@ -15,16 +15,28 @@ font-family: "Roboto", "sans-serif";
 <h1>Verification</h1>
 
 <p>Click the "verify" button to verify.</p>
+  <style>
+  block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+  </style>
+<block
+        type="block" onclick="myFunction()">Verify</block>
 
-<button onclick="myFunction()">Verify</button>
-
-<p onclick="myFunction" id="demo"></p>
+<p onclick="myFunction" id="verify"></p>
 <script>
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Loading...";
-  window.location.href="https://www.tristhub.github.io/trident";
+  document.getElementById("verify").innerHTML = "Loading...";
+  window.location.href="https://www.tristhub.github.io/verify";
 }
-</script>
-
+</script> 
 </body>
 </html>
+   
